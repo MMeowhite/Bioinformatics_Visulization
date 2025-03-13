@@ -1,7 +1,7 @@
 import importlib
 
 def dispatch_plot(plot_type, data, **kwargs):
-    print(f"plot_type:{plot_type}")
+    print(f"plot_type:{plot_type}, data:{data}")
     try:
         # 动态导入对应的绘图模块
         module = importlib.import_module(f"plots.plot_{plot_type}")
