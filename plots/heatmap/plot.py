@@ -1,6 +1,7 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
 def plot(data, **kwargs):
     penguins = sns.load_dataset("penguins")
 
@@ -9,4 +10,6 @@ def plot(data, **kwargs):
                      hue="species",
                      multiple="stack")
     sns.set(style='whitegrid', font_scale=1.2)
-    plt.show()
+    print(f"{kwargs.get('preview')}")
+    if kwargs.get("preview"):
+        plt.show()
