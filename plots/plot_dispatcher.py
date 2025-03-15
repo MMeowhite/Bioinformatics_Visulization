@@ -1,14 +1,15 @@
 import importlib
 
 
-def dispatch_plot(plot_type, data, **kwargs):
-    print(f"plot_type:{plot_type}, data:{data}")
+def dispatch_plot(args, data, **kwargs):
+    print(f"plot_type:{args.type}, data:{data}")
     try:
         # 动态导入对应的绘图模块
-        module = importlib.import_module(f"plots.{plot_type}.plot")
+        print(f"you are trying to import plots.{args.type}.plot file")
+        module = importlib.import_module(f"plots.{args.type}.plot")
         # 调用模块中的 plot 函数
-        module.plot(data, **kwargs)
+        module.plot(args, data, **kwargs)
     except ModuleNotFoundError:
-        raise ValueError(f"Unsupported plot type: {plot_type}")
+        raise ValueError(f"Unsupported plot type: {args.type}")
     except AttributeError:
-        raise ValueError(f"Module plot.{plot_type} does not have a plot function")
+        raise ValueError(f"Module plots.{args.type} does not have a plot function")

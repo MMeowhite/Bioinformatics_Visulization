@@ -2,6 +2,7 @@ import os
 import sys
 import argparse
 import pandas as pd
+import numpy as np
 
 
 def parse_args():
@@ -11,10 +12,12 @@ def parse_args():
     parser.add_argument("-f", "--file", help="Path to the data file (csv, xlsx, xls format)")
     parser.add_argument("-o", "--output", help="Output directory path")
     parser.add_argument("--preview", default=False, type=bool, help="Preview")
-    parser.add_argument("--color", help="Color of the plot")
+    parser.add_argument("--color", nargs='+', help="Custom colors for the heatmap (e.g., --color blue cyan yellow red)")
     parser.add_argument("--linestyle", help="Line style for line plot")
     parser.add_argument("--marker", help="Marker style for scatter plot")
     parser.add_argument("--bins", type=int, help="Number of bins for histogram")
+    parser.add_argument("--annotate", action="store_true", help="annotate plot")
+
     return parser.parse_args()
 
 

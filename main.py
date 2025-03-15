@@ -39,7 +39,7 @@ def main():
         kwargs["preview"] = args.preview
 
     try:
-        dispatch_plot(args.type, data)
+        dispatch_plot(args, data)
     except ValueError as e:
         print(e)
         sys.exit(1)
