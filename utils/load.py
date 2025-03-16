@@ -2,7 +2,6 @@ import os
 import sys
 import argparse
 import pandas as pd
-import numpy as np
 
 
 def parse_args():
@@ -16,6 +15,7 @@ def parse_args():
     parser.add_argument("--linestyle", help="Line style for line plot")
     parser.add_argument("--marker", help="Marker style for scatter plot")
     parser.add_argument("--bins", type=int, help="Number of bins for histogram")
+    parser.add_argument("--regression", action="store_true", help="Whether or not to do regression plot")
     parser.add_argument("--annotate", action="store_true", help="annotate plot")
 
     return parser.parse_args()
@@ -49,8 +49,22 @@ def load_data_from_file(file_path):
     # 根据文件扩展名加载数据
     if file_extension == '.csv':
         return pd.read_csv(file_path)
-    elif file_extension in ['.xls', '.xlsx']:
-        return pd.read_excel(file_path)
+    elif file_extension == ".xlsx":
+        try:
+            # 尝试读取 Excel 文件
+            data = pd.read_excel(file_path)
+            return data
+        except FileNotFoundError:
+            print(f"Error: File not found at path {file_path}")
+            return None
+        except ValueError as e:
+            print(f"Error: {e}")
+            return None
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
+            return None
+    elif file_extension == ".xls":
+        return pd.read_excel(file_path, engine='xlrd')
     elif file_extension == '.txt':
         # 尝试自动检测分隔符
         try:

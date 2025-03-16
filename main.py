@@ -37,9 +37,14 @@ def main():
         kwargs["bins"] = args.bins
     if args.preview:
         kwargs["preview"] = args.preview
+    if args.regression:
+        kwargs["regression"] = args.regression
+    if args.annotate:
+        kwargs["annotate"] = args.annotate
+
 
     try:
-        dispatch_plot(args, data)
+        dispatch_plot(args, data, **kwargs)
     except ValueError as e:
         print(e)
         sys.exit(1)
