@@ -33,10 +33,10 @@ def load_data_from_file(file_path):
 
     # 检查文件是否存在
     if not os.path.exists(file_path):
-        raise Exception(f"文件不存在: {file_path}")
+        raise Exception(f"File is not exists: {file_path}")
 
     if not os.path.isfile(file_path):
-        raise Exception(f"路径存在，但不是一个文件: {file_path}")
+        raise Exception(f"Path is exists，but not a file type: {file_path}")
 
     # 获取文件扩展名
     file_extension = get_file_type(file_path)

@@ -18,8 +18,7 @@ def main():
             os.makedirs(args.output, exist_ok=True)
             os.chdir(args.output)
     else:
-        # 如果没有指定输出目录，切换到当前目录
-        os.chdir(".")
+        # 如果没有指定输出目录，切换到output目录
         print("No output directory specified.")
 
     print(f"loading data from {args.file}")
@@ -29,6 +28,8 @@ def main():
     kwargs = {}
     if args.color:
         kwargs["color"] = args.color
+    else:
+        kwargs["color"] = None
     if args.linestyle:
         kwargs["linestyle"] = args.linestyle
     if args.marker:
