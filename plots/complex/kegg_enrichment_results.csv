@@ -1,0 +1,55 @@
+"","category","subcategory","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"hsa05224","Human Diseases","Cancer: specific types","hsa05224","Breast cancer","5/9","148/8542",1.73914201300673e-07,1.52517204096757e-05,7.43015522350447e-06,"7157/1956/672/3845/5728",5
+"hsa05213","Human Diseases","Cancer: specific types","hsa05213","Endometrial cancer","4/9","59/8542",2.52094552226044e-07,1.52517204096757e-05,7.43015522350447e-06,"7157/1956/3845/5728",4
+"hsa05230","Human Diseases","Cancer: overview","hsa05230","Central carbon metabolism in cancer","4/9","71/8542",5.35157047646962e-07,1.70603759472927e-05,8.31127492865064e-06,"7157/1956/3845/5728",4
+"hsa05218","Human Diseases","Cancer: specific types","hsa05218","Melanoma","4/9","73/8542",5.98920840995938e-07,1.70603759472927e-05,8.31127492865064e-06,"7157/1956/3845/5728",4
+"hsa05214","Human Diseases","Cancer: specific types","hsa05214","Glioma","4/9","76/8542",7.04974212698046e-07,1.70603759472927e-05,8.31127492865064e-06,"7157/1956/3845/5728",4
+"hsa05215","Human Diseases","Cancer: specific types","hsa05215","Prostate cancer","4/9","98/8542",1.96440132303653e-06,3.96154266812367e-05,1.92993814193063e-05,"7157/1956/3845/5728",4
+"hsa05206","Human Diseases","Cancer: overview","hsa05206","MicroRNAs in cancer","5/9","312/8542",7.03194402526102e-06,0.000121552175293798,5.92163707390401e-05,"7157/1956/672/3845/5728",5
+"hsa05219","Human Diseases","Cancer: specific types","hsa05219","Bladder cancer","3/9","41/8542",8.4518696870622e-06,0.000127834529016816,6.22769345362478e-05,"7157/1956/3845",3
+"hsa04151","Environmental Information Processing","Signal transduction","hsa04151","PI3K-Akt signaling pathway","5/9","362/8542",1.45561811030277e-05,0.000195699768162927,9.53387300315262e-05,"7157/1956/672/3845/5728",5
+"hsa05225","Human Diseases","Cancer: specific types","hsa05225","Hepatocellular carcinoma","4/9","170/8542",1.76521224623803e-05,0.000213590681794802,0.000104054616620347,"7157/1956/3845/5728",4
+"hsa05223","Human Diseases","Cancer: specific types","hsa05223","Non-small cell lung cancer","3/9","73/8542",4.84852161133115e-05,0.000533337377246426,0.000259825081564157,"7157/1956/3845",3
+"hsa05212","Human Diseases","Cancer: specific types","hsa05212","Pancreatic cancer","3/9","77/8542",5.69038512434127e-05,0.000573780500037745,0.000279527690318518,"7157/1956/3845",3
+"hsa01521","Human Diseases","Drug resistance: antineoplastic","hsa01521","EGFR tyrosine kinase inhibitor resistance","3/9","80/8542",6.38113535704326e-05,0.00059393644477095,0.000289347028335565,"1956/3845/5728",3
+"hsa05210","Human Diseases","Cancer: specific types","hsa05210","Colorectal cancer","3/9","87/8542",8.20187028621129e-05,0.00070887593187969,0.000345341906787844,"7157/1956/3845",3
+"hsa05235","Human Diseases","Cancer: overview","hsa05235","PD-L1 expression and PD-1 checkpoint pathway in cancer","3/9","90/8542",9.07614135309358e-05,0.000732142069149549,0.000356676432121572,"1956/3845/5728",3
+"hsa01522","Human Diseases","Drug resistance: antineoplastic","hsa01522","Endocrine resistance","3/9","99/8542",0.000120600118283824,0.000912038394521422,0.000444316225256195,"7157/1956/3845",3
+"hsa04071","Environmental Information Processing","Signal transduction","hsa04071","Sphingolipid signaling pathway","3/9","122/8542",0.000224255373207803,0.00159617059753789,0.000777603770875355,"7157/3845/5728",3
+"hsa05165","Human Diseases","Infectious disease: viral","hsa05165","Human papillomavirus infection","4/9","333/8542",0.000244646729078619,0.00164456967880627,0.000801182270666822,"7157/1956/3845/5728",4
+"hsa04068","Environmental Information Processing","Signal transduction","hsa04068","FoxO signaling pathway","3/9","133/8542",0.000289452167780523,0.00184335327902333,0.000898023346022675,"1956/3845/5728",3
+"hsa05226","Human Diseases","Cancer: specific types","hsa05226","Gastric cancer","3/9","150/8542",0.000412568445391771,0.00249603909462022,0.00121599120747048,"7157/1956/3845",3
+"hsa04218","Cellular Processes","Cell growth and death","hsa04218","Cellular senescence","3/9","157/8542",0.000471732906452851,0.00269274226703467,0.00131181876427961,"7157/3845/5728",3
+"hsa05160","Human Diseases","Infectious disease: viral","hsa05160","Hepatitis C","3/9","159/8542",0.000489589503097212,0.00269274226703467,0.00131181876427961,"7157/1956/3845",3
+"hsa05216","Human Diseases","Cancer: specific types","hsa05216","Thyroid cancer","2/9","37/8542",0.000644803325569493,0.00339222619103951,0.0016525851822376,"7157/3845",2
+"hsa05205","Human Diseases","Cancer: overview","hsa05205","Proteoglycans in cancer","3/9","204/8542",0.00101378765023456,0.00511117940326593,0.00249000475496209,"7157/1956/3845",3
+"hsa05166","Human Diseases","Infectious disease: viral","hsa05166","Human T-cell leukemia virus 1 infection","3/9","224/8542",0.00132965970749209,0.00619266234303348,0.00301686899704111,"7157/3845/5728",3
+"hsa05163","Human Diseases","Infectious disease: viral","hsa05163","Human cytomegalovirus infection","3/9","226/8542",0.00136429993914393,0.00619266234303348,0.00301686899704111,"7157/1956/3845",3
+"hsa05208","Human Diseases","Cancer: overview","hsa05208","Chemical carcinogenesis - reactive oxygen species","3/9","227/8542",0.00138183374596615,0.00619266234303348,0.00301686899704111,"1956/3845/5728",3
+"hsa01524","Human Diseases","Drug resistance: antineoplastic","hsa01524","Platinum drug resistance","2/9","75/8542",0.00263139650649559,0.0109792750788264,0.00534875514931953,"7157/672",2
+"hsa04115","Cellular Processes","Cell growth and death","hsa04115","p53 signaling pathway","2/9","75/8542",0.00263139650649559,0.0109792750788264,0.00534875514931953,"7157/5728",2
+"hsa05220","Human Diseases","Cancer: specific types","hsa05220","Chronic myeloid leukemia","2/9","77/8542",0.00277154673090604,0.0111785718146544,0.00544584620809608,"7157/3845",2
+"hsa04010","Environmental Information Processing","Signal transduction","hsa04010","MAPK signaling pathway","3/9","300/8542",0.0030773928943986,0.0120117593620074,0.00585174879749818,"7157/1956/3845",3
+"hsa04012","Environmental Information Processing","Signal transduction","hsa04012","ErbB signaling pathway","2/9","86/8542",0.00344505098200814,0.0130265990257183,0.00634614654580447,"1956/3845",2
+"hsa04211","Organismal Systems","Aging","hsa04211","Longevity regulating pathway","2/9","90/8542",0.0037666888266101,0.0135010499042881,0.0065772839899098,"7157/3845",2
+"hsa04540","Cellular Processes","Cellular community - eukaryotes","hsa04540","Gap junction","2/9","92/8542",0.00393261016855301,0.0135010499042881,0.0065772839899098,"1956/3845",2
+"hsa04912","Organismal Systems","Endocrine system","hsa04912","GnRH signaling pathway","2/9","93/8542",0.00401684129383777,0.0135010499042881,0.0065772839899098,"1956/3845",2
+"hsa05222","Human Diseases","Cancer: specific types","hsa05222","Small cell lung cancer","2/9","93/8542",0.00401684129383777,0.0135010499042881,0.0065772839899098,"7157/5728",2
+"hsa05231","Human Diseases","Cancer: overview","hsa05231","Choline metabolism in cancer","2/9","99/8542",0.0045399220204155,0.0148467720127101,0.00723287718757519,"1956/3845",2
+"hsa04137","Cellular Processes","Transport and catabolism","hsa04137","Mitophagy - animal","2/9","105/8542",0.00509310743763277,0.0162175263145675,0.00790066527721428,"7157/3845",2
+"hsa04722","Organismal Systems","Nervous system","hsa04722","Neurotrophin signaling pathway","2/9","120/8542",0.00660572438497412,0.020494683348253,0.00998436074382054,"7157/3845",2
+"hsa04919","Organismal Systems","Endocrine system","hsa04919","Thyroid hormone signaling pathway","2/9","122/8542",0.00682121354883823,0.0206341709852356,0.0100523147035511,"7157/3845",2
+"hsa04926","Organismal Systems","Endocrine system","hsa04926","Relaxin signaling pathway","2/9","130/8542",0.00771518170164408,0.0227691947780228,0.011092430687858,"1956/3845",2
+"hsa04210","Cellular Processes","Cell growth and death","hsa04210","Apoptosis","2/9","136/8542",0.00841895315365237,0.0242546031331413,0.0118160746016174,"7157/3845",2
+"hsa04915","Organismal Systems","Endocrine system","hsa04915","Estrogen signaling pathway","2/9","139/8542",0.00878143334202321,0.0247105449856932,0.0120381950343525,"1956/3845",2
+"hsa04072","Environmental Information Processing","Signal transduction","hsa04072","Phospholipase D signaling pathway","2/9","149/8542",0.0100401361953826,0.0276103745373022,0.0134509001660629,"1956/3845",2
+"hsa04921","Organismal Systems","Endocrine system","hsa04921","Oxytocin signaling pathway","2/9","155/8542",0.0108321810488364,0.0291265312646491,0.0141895237130957,"1956/3845",2
+"hsa04150","Environmental Information Processing","Signal transduction","hsa04150","mTOR signaling pathway","2/9","158/8542",0.011238442129626,0.0295619890801032,0.0144016649716031,"3845/5728",2
+"hsa05161","Human Diseases","Infectious disease: viral","hsa05161","Hepatitis B","2/9","163/8542",0.0119305845025765,0.0307149090385479,0.0149633310670612,"7157/3845",2
+"hsa04140","Cellular Processes","Transport and catabolism","hsa04140","Autophagy - animal","2/9","169/8542",0.0127857625748816,0.0322307764908474,0.0157018136884511,"3845/5728",2
+"hsa05167","Human Diseases","Infectious disease: viral","hsa05167","Kaposi sarcoma-associated herpesvirus infection","2/9","196/8542",0.0169586631873122,0.0418775152176485,0.0204013993230823,"7157/3845",2
+"hsa04510","Cellular Processes","Cellular community - eukaryotes","hsa04510","Focal adhesion","2/9","203/8542",0.018125121878935,0.0438082915836224,0.021342012428733,"1956/5728",2
+"hsa05203","Human Diseases","Cancer: overview","hsa05203","Viral carcinogenesis","2/9","205/8542",0.018464651824502,0.0438082915836224,0.021342012428733,"7157/3845",2
+"hsa04015","Environmental Information Processing","Signal transduction","hsa04015","Rap1 signaling pathway","2/9","212/8542",0.0196746845764078,0.045668870679208,0.0222484276471131,"1956/3845",2
+"hsa05207","Human Diseases","Cancer: overview","hsa05207","Chemical carcinogenesis - receptor activation","2/9","215/8542",0.0202035153644069,0.045668870679208,0.0222484276471131,"1956/3845",2
+"hsa05417","Human Diseases","Cardiovascular disease","hsa05417","Lipid and atherosclerosis","2/9","216/8542",0.0203811488981589,0.045668870679208,0.0222484276471131,"7157/3845",2

@@ -2,6 +2,8 @@ import os
 import sys
 import argparse
 import pandas as pd
+import scanpy as sc
+import PyComplexHeatmap
 
 
 def parse_args():
@@ -17,6 +19,11 @@ def parse_args():
     parser.add_argument("--bins", type=int, help="Number of bins for histogram")
     parser.add_argument("--regression", action="store_true", help="Whether or not to do regression plot")
     parser.add_argument("--annotate", action="store_true", help="annotate plot")
+    parser.add_argument('--gene-list', type=str, help='输入基因列表文件，每行一个基因')
+    parser.add_argument('--species', type=str, choices=['human', 'mouse'], default="mouse",
+                        help='choice for species (only human and mouse)')
+    parser.add_argument('--analysis-type', type=str, choices=['go', 'kegg'], required=True, help='analysis type')
+    parser.add_argument('--top-n', type=int, default=20, help='top n results')
 
     return parser.parse_args()
 
@@ -44,15 +51,15 @@ def load_data_from_file(file_path):
     # 检查文件类型是否允许
     allowed_file_types = ['.xls', '.xlsx', '.csv', '.txt']
     if file_extension not in allowed_file_types:
-        raise Exception("The type of the file is not allowed, only .xls, .xlsx, .csv, .txt files are allowed")
+        raise Exception("The type of the file is not allowed, only .xls, .xlsx, .csv, .txt, .h5ad files are allowed")
 
     # 根据文件扩展名加载数据
     if file_extension == '.csv':
-        return pd.read_csv(file_path)
+        return pd.read_csv(file_path), file_extension
     elif file_extension == ".xlsx":
         try:
             # 尝试读取 Excel 文件
-            data = pd.read_excel(file_path)
+            data = pd.read_excel(file_path), file_extension
             return data
         except FileNotFoundError:
             print(f"Error: File not found at path {file_path}")
@@ -64,13 +71,19 @@ def load_data_from_file(file_path):
             print(f"An unexpected error occurred: {e}")
             return None
     elif file_extension == ".xls":
-        return pd.read_excel(file_path, engine='xlrd')
+        return pd.read_excel(file_path, engine='xlrd'), file_extension
     elif file_extension == '.txt':
         # 尝试自动检测分隔符
         try:
-            return pd.read_csv(file_path, sep=None, engine='python')
+            return pd.read_csv(file_path, sep=None, engine='python'), file_extension
         except Exception as e:
             print(f"Error reading TXT file: {e}")
+            sys.exit(1)
+    elif file_extension == ".h5ad":
+        try:
+            return sc.read_h5ad(file_path), file_extension
+        except Exception as e:
+            print(f"Error reading h5ad file: {e}")
             sys.exit(1)
     else:
         print(f"Unsupported file format: {file_extension}")

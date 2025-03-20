@@ -1,10 +1,15 @@
 from utils.load import *
+from utils.decorator import timer, log, kwargs_dict
 from plots.plot_dispatcher import dispatch_plot
 
 
+@log
+@timer
+@kwargs_dict
 def main():
     # 解析参数
     args = parse_args()
+    kwargs = parse_kwargs()
     print(f"args:{args}")
 
     # 设置输出目录
@@ -23,26 +28,6 @@ def main():
 
     print(f"loading data from {args.file}")
     data = load_data_from_file(args.file)
-
-    # 准备可选参数
-    kwargs = {}
-    if args.color:
-        kwargs["color"] = args.color
-    else:
-        kwargs["color"] = None
-    if args.linestyle:
-        kwargs["linestyle"] = args.linestyle
-    if args.marker:
-        kwargs["marker"] = args.marker
-    if args.bins:
-        kwargs["bins"] = args.bins
-    if args.preview:
-        kwargs["preview"] = args.preview
-    if args.regression:
-        kwargs["regression"] = args.regression
-    if args.annotate:
-        kwargs["annotate"] = args.annotate
-
 
     try:
         dispatch_plot(args, data, **kwargs)
