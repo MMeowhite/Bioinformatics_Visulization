@@ -1,18 +1,22 @@
 import importlib
+from utils.decorator import log
+import logging
 
 
-def dispatch_plot(args, data, **kwargs):
-    print(f"plot_type:{args.type},data:\n{data},\nkwargs={kwargs}")
+@log
+def dispatch_plot(args, data, file_extension):
+    logger = logging.getLogger(__name__)
     try:
         # 动态导入对应的绘图模块
-        print(f"you are trying to import plots.{args.type}.plot file")
-        print(f"you are trying to import plots.{args.type}.data_processing file")
+        logger.info(f"you are trying to import plots.{args.type}.plot file")
+        logger.info(f"you are trying to import plots.{args.type}.data_processing file")
+
         module_plot = importlib.import_module(f"plots.{args.type}.plot")
         module_data_processing = importlib.import_module(f"plots.{args.type}.data_processing")
 
         # 调用模块中的 plot 函数
-        data, kwargs = module_data_processing.data_processing(args, data, **kwargs)
+        args, data = module_data_processing.data_processing(args, data)
 
-        module_plot.plot(data, **kwargs)
+        module_plot.plot(args, data)
     except ModuleNotFoundError:
-        raise ValueError(f"Unsupported plot type: {args.type}")
+        raise logger.error(f"Unsupported plot type: {args.type}")

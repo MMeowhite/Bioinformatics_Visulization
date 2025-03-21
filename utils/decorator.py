@@ -2,7 +2,7 @@ import functools
 import matplotlib.pyplot as plt
 import time
 import logging
-
+import os
 
 def setting_chart_params(style='seaborn', dpi=300, bbox_inches='tight', show_chart=True, save_path=None):
     """
@@ -87,11 +87,7 @@ def timer(func):
 
 def log(func):
     """
-    一个用于记录函数调用信息的日志装饰器。
-
-    功能:
-    - 记录函数的名称
-    - 记录函数的参数
+    log decorator to log the function execution, record the name and parametes of the executed function
     """
     # 配置日志
     logging.basicConfig(
@@ -113,51 +109,8 @@ def log(func):
         # 执行原始函数
         result = func(*args, **kwargs)
 
+        logger.info(f"Function '{func.__name__}' execute done with return value: return={result}")
+
         return result
 
     return wrapper
-
-
-def kwargs_dict(param_map):
-    """
-    一个用于动态扩展参数映射表并准备可选参数的装饰器。
-
-    参数:
-    param_map : 参数映射表，字典类型，键为命令行参数名，值为kwargs字典中的键名
-
-    返回:
-    decorator : 装饰器函数
-    """
-    param_map = {
-        'color': 'color',
-        'linestyle': 'linestyle',
-        'marker': 'marker',
-        'bins': 'bins',
-        'preview': 'preview',
-        'regression': 'regression',
-        'annotate': 'annotate'
-    }
-
-    def decorator(func):
-        @functools.wraps(func)
-        def wrapper(*args, **kwargs):
-            # 假设args的第一个参数是解析后的命令行参数对象
-            args_obj = args[0] if args else None
-
-            # 准备可选参数
-            kwargs_dict = {}
-            for arg_name, kwarg_name in param_map.items():
-                value = getattr(args_obj, arg_name, None)
-                if value is not None:
-                    kwargs_dict[kwarg_name] = value
-                else:
-                    kwargs_dict[kwarg_name] = None
-
-            # 将准备好的kwargs字典传递给原始函数
-            result = func(*args, **kwargs_dict)
-
-            return result
-
-        return wrapper
-
-    return decorator

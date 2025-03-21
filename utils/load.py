@@ -8,7 +8,7 @@ import PyComplexHeatmap
 
 def parse_args():
     # 解析命令行参数
-    parser = argparse.ArgumentParser(description="Plotting Tool")
+    parser = argparse.ArgumentParser(description="Plotting")
     parser.add_argument("-t", "--type", required=True, help="Type of plot (e.g., line, bar, scatter, hist)")
     parser.add_argument("-f", "--file", help="Path to the data file (csv, xlsx, xls format)")
     parser.add_argument("-o", "--output", help="Output directory path")
@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument('--gene-list', type=str, help='输入基因列表文件，每行一个基因')
     parser.add_argument('--species', type=str, choices=['human', 'mouse'], default="mouse",
                         help='choice for species (only human and mouse)')
-    parser.add_argument('--analysis-type', type=str, choices=['go', 'kegg'], required=True, help='analysis type')
+    parser.add_argument('--analysis-type', type=str, choices=['go', 'kegg'], help='analysis type')
     parser.add_argument('--top-n', type=int, default=20, help='top n results')
 
     return parser.parse_args()
@@ -36,11 +36,11 @@ def get_file_type(file_path):
 def load_data_from_file(file_path):
     # 如果文件路径为 None，返回默认数据
     if file_path is None:
-        return {'x': [1, 2, 3, 4, 5], 'y': [10, 20, 25, 30, 40]}
+        raise FileNotFoundError("File path cannot be None")
 
     # 检查文件是否存在
     if not os.path.exists(file_path):
-        raise Exception(f"File is not exists: {file_path}")
+        raise FileExistsError(f"File is not exists: {file_path}")
 
     if not os.path.isfile(file_path):
         raise Exception(f"Path is exists，but not a file type: {file_path}")
@@ -51,7 +51,7 @@ def load_data_from_file(file_path):
     # 检查文件类型是否允许
     allowed_file_types = ['.xls', '.xlsx', '.csv', '.txt']
     if file_extension not in allowed_file_types:
-        raise Exception("The type of the file is not allowed, only .xls, .xlsx, .csv, .txt, .h5ad files are allowed")
+        raise ValueError("The type of the file is not allowed, only .xls, .xlsx, .csv, .txt, .h5ad files are allowed")
 
     # 根据文件扩展名加载数据
     if file_extension == '.csv':

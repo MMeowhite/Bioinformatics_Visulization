@@ -1,0 +1,129 @@
+2025-03-20 20:25:43,492 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 21:32:34,509 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 21:34:29,155 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 21:35:32,904 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 21:58:44,258 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 21:59:32,707 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 21:59:57,456 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 22:01:01,620 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 22:02:45,799 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 22:02:45,939 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
+0     37.454012  111.392293
+1     95.071431  266.311248
+2     73.199394  220.475975
+3     59.865848  193.732283
+4     15.601864   57.181891
+...         ...         ...
+4995  89.739732  296.628461
+4996  11.938101   45.578605
+4997  32.784284  101.820246
+4998  81.574538  263.875659
+4999  59.731238  202.611870
+
+[5000 rows x 2 columns], '.xlsx'), kwargs={}
+2025-03-20 22:07:55,554 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 22:07:55,695 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
+0     37.454012  111.392293
+1     95.071431  266.311248
+2     73.199394  220.475975
+3     59.865848  193.732283
+4     15.601864   57.181891
+...         ...         ...
+4995  89.739732  296.628461
+4996  11.938101   45.578605
+4997  32.784284  101.820246
+4998  81.574538  263.875659
+4999  59.731238  202.611870
+
+[5000 rows x 2 columns], '.xlsx'), kwargs={}
+2025-03-20 22:07:55,695 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
+2025-03-20 22:07:55,695 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
+2025-03-20 22:10:00,687 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 22:10:00,821 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
+0     37.454012  111.392293
+1     95.071431  266.311248
+2     73.199394  220.475975
+3     59.865848  193.732283
+4     15.601864   57.181891
+...         ...         ...
+4995  89.739732  296.628461
+4996  11.938101   45.578605
+4997  32.784284  101.820246
+4998  81.574538  263.875659
+4999  59.731238  202.611870
+
+[5000 rows x 2 columns], '.xlsx'), kwargs={}
+2025-03-20 22:10:00,821 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
+2025-03-20 22:10:00,821 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
+2025-03-20 22:10:00,972 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-20 22:10:00,972 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-20 22:34:07,178 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 22:34:07,319 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
+0     37.454012  111.392293
+1     95.071431  266.311248
+2     73.199394  220.475975
+3     59.865848  193.732283
+4     15.601864   57.181891
+...         ...         ...
+4995  89.739732  296.628461
+4996  11.938101   45.578605
+4997  32.784284  101.820246
+4998  81.574538  263.875659
+4999  59.731238  202.611870
+
+[5000 rows x 2 columns], '.xlsx'), kwargs={}
+2025-03-20 22:34:07,319 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
+2025-03-20 22:34:07,319 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
+2025-03-20 22:34:59,302 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 22:34:59,435 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
+0     37.454012  111.392293
+1     95.071431  266.311248
+2     73.199394  220.475975
+3     59.865848  193.732283
+4     15.601864   57.181891
+...         ...         ...
+4995  89.739732  296.628461
+4996  11.938101   45.578605
+4997  32.784284  101.820246
+4998  81.574538  263.875659
+4999  59.731238  202.611870
+
+[5000 rows x 2 columns], '.xlsx'), kwargs={}
+2025-03-20 22:34:59,436 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
+2025-03-20 22:34:59,436 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
+2025-03-20 22:35:34,486 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 22:35:34,633 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
+0     37.454012  111.392293
+1     95.071431  266.311248
+2     73.199394  220.475975
+3     59.865848  193.732283
+4     15.601864   57.181891
+...         ...         ...
+4995  89.739732  296.628461
+4996  11.938101   45.578605
+4997  32.784284  101.820246
+4998  81.574538  263.875659
+4999  59.731238  202.611870
+
+[5000 rows x 2 columns], '.xlsx'), kwargs={}
+2025-03-20 22:35:34,633 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
+2025-03-20 22:35:34,633 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
+2025-03-20 22:37:43,746 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-20 22:37:43,887 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
+0     37.454012  111.392293
+1     95.071431  266.311248
+2     73.199394  220.475975
+3     59.865848  193.732283
+4     15.601864   57.181891
+...         ...         ...
+4995  89.739732  296.628461
+4996  11.938101   45.578605
+4997  32.784284  101.820246
+4998  81.574538  263.875659
+4999  59.731238  202.611870
+
+[5000 rows x 2 columns], '.xlsx'), kwargs={}
+2025-03-20 22:37:43,887 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
+2025-03-20 22:37:43,887 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
+2025-03-20 22:37:44,056 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-20 22:37:44,056 - utils.decorator - INFO - Function 'main' execute done with return value: return=None

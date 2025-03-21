@@ -1,16 +1,14 @@
 from utils.load import *
-from utils.decorator import timer, log, kwargs_dict
+from utils.decorator import timer, log
 from plots.plot_dispatcher import dispatch_plot
 
 
 @log
 @timer
-@kwargs_dict
 def main():
     # 解析参数
     args = parse_args()
-    kwargs = parse_kwargs()
-    print(f"args:{args}")
+    print(f"args: {args}")
 
     # 设置输出目录
     if args.output is not None:
@@ -27,11 +25,11 @@ def main():
         print("No output directory specified.")
 
     print(f"loading data from {args.file}")
-    data = load_data_from_file(args.file)
+    data, file_extension = load_data_from_file(args.file)
 
     try:
-        dispatch_plot(args, data, **kwargs)
-    except ValueError as e:
+        dispatch_plot(args, data, file_extension)
+    except Exception as e:
         print(e)
         sys.exit(1)
 
