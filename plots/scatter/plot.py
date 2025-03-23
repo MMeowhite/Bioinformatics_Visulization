@@ -1,39 +1,79 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import linregress
-from utils.decorator import log
+
+from utils.cluster import ClusterAlgorithm
 
 
 class ScatterPlot:
     def __init__(self, args, data):
         self.args = args
         self.data = data
+
+
+        if "X" not in data:
+            raise ValueError("No X data provided")
         self.x = data["X"]
+
+        if "Y" not in data:
+            raise ValueError("No Y data provided")
         self.y = data["Y"]
-        self.z = data["Z"] if "Z" in data.keys() else None
-        self.sizes = data["sizes"] if "sizes" in data else 100
-        self.markers = data["markers"] if "markers" in data.keys() else 'o'
-        self.categories = args.categories if "categories" in args else None
-        self.category_colors = args.category_color if args.categories is not None else None
-        self.colors = args.colors if args.colors is not None else "blue"
+
+        self.z = data["Z"] if "Z" in data else None
+
+        # 从 args 中获取参数，如果没有则使用默认值
+        self.title = args.title if hasattr(self.args, 'title') else  'Multi Class Scatter Plot'
+        self.xlab = args.xlab if hasattr(self.args, 'xlab') else 'X Axis Label'
+        self.ylab = args.ylab if hasattr(self.args, 'ylab') else 'Y Axis Label'
+        self.sizes = args.sizes if hasattr(args, 'sizes') else 100
+        self.marker = args.marker if hasattr(args, 'markers') else 'o'
+        self.categories = args.categories if hasattr(args, 'categories') else None
+
+        # category_colors 的逻辑需要根据 categories 是否存在来决定
+        if self.categories is not None and hasattr(args, 'category_color'):
+            self.category_colors = args.category_color
+        else:
+            self.category_colors = None
+
+        self.colors = args.colors if hasattr(args, 'colors') else "blue"
+
         self.fig, self.ax = plt.subplots(figsize=(10, 8))
-        self.legend = args.legend if args.legend is not None else True
-        self.legend_loc = args.legend_loc
-        self.legend_position = args.legend_position if args.legend_position is not None else (1.05, 1)
-        self.regression = args.regression if args.regression is not None else False
+
+        # legend 的逻辑
+        if hasattr(args, 'legend'):
+            self.legend = args.legend
+        else:
+            self.legend = True
+
+        self.legend_loc = args.legend_loc if hasattr(args, 'legend_loc') else 'upper right'
+
+        # legend_position 的逻辑
+        if hasattr(args, 'legend_position'):
+            self.legend_position = args.legend_position
+        else:
+            self.legend_position = (1.05, 1)
+
+        self.alpha = args.alpha if hasattr(args, 'alpha') else 0.8
+
+        # 是否进行进一步的分析
+        self.regression = args.regression if hasattr(args, 'regression') else False
+        self.cluster = args.cluster if hasattr(args, 'cluster') else False
+        self.method = args.method if hasattr(args, 'method') else "kmeans"
+        self.number = args.number if hasattr(args, 'number') else 3
+
 
 
     def plot_scatter(self):
         # 普通散点图
         if self.categories is None:
-            scatter = self.ax.scatter(self.x, self.y, s=self.sizes, alpha=self.alpha, marker=self.marker)
+            self.scatter = self.ax.scatter(self.x, self.y, s=self.sizes, alpha=self.alpha, marker=self.marker)
         else:
             if self.category_colors is None:
                 unique_categories = np.unique(self.categories)
                 category_colors = plt.cm.tab10(np.linspace(0, 1, len(unique_categories)))
                 category_colors = {category: color for category, color in zip(unique_categories, category_colors)}
-            colors = [self.category_colors[category] for category in self.categories]
-            scatter = self.ax.scatter(self.x, self.y, s=self.sizes, alpha=self.alpha, marker=self.marker)
+            self.colors = [self.category_colors[category] for category in self.categories]
+            self.scatter = self.ax.scatter(self.x, self.y, s=self.sizes, alpha=self.alpha, marker=self.marker)
             if self.legend:
                 category_handles = [
                     plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=category_colors[category],
@@ -42,10 +82,32 @@ class ScatterPlot:
                 self.ax.legend(handles=category_handles, title='Categories', loc=self.legend_loc, bbox_to_anchor=self.legend_position)
 
 
-def plot(args, data, title='Multi Class Scatter Plot', x_label='X Axis Label',
-         y_label='Y Axis Label', categories=None, sizes=100, z=None,
-         category_colors=None, legend=True, legend_loc='upper right',
-         legend_position=(1.05, 1), regression=False, plot_type='scatter',
+    def plot_3d(self):
+        # 3D散点图
+        if self.z is None:
+            raise ValueError("3D散点图需要提供 z 参数")
+        self.ax = self.fig.add_subplot(111, projection='3d')
+        if self.categories is None:
+            scatter = self.ax.scatter(self.x, self.y, self.z, s=self.sizes, alpha=self.alpha, marker=self.marker)
+        else:
+            if self.category_colors is None:
+                unique_categories = np.unique(self.categories)
+                category_colors = plt.cm.tab10(np.linspace(0, 1, len(unique_categories)))
+                category_colors = {category: color for category, color in zip(unique_categories, category_colors)}
+            colors = [self.category_colors[category] for category in self.categories]
+            self.scatter = self.ax.scatter(self.x, self.y, self.z, c=colors, s=self.sizes, alpha=self.alpha, marker=self.marker)
+            if self.legend:
+                category_handles = [
+                    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=self.category_colors[category],
+                               markersize=10, label=category)
+                    for category in np.unique(self.categories)]
+                self.ax.legend(handles=category_handles, title='Categories', loc=self.legend_loc, bbox_to_anchor=self.legend_position)
+        self.ax.set_title(self.title)
+        self.ax.set_xlabel(self.xlab)
+        self.ax.set_ylabel(self.ylab)
+        self.ax.set_zlabel('Z Axis Label')
+
+def plot(args, data, regression=False, plot_type='scatter',
          bubble_sizes=None, colormap='viridis', grid=False, alpha=0.8,
          marker='o'):
     """
@@ -97,27 +159,7 @@ def plot(args, data, title='Multi Class Scatter Plot', x_label='X Axis Label',
         ax.set_ylabel(y_label)
 
     elif plot_type == '3d':
-        # 3D散点图
-        if z is None:
-            raise ValueError("3D散点图需要提供 z 参数")
-        ax = fig.add_subplot(111, projection='3d')
-        if categories is None:
-            scatter = ax.scatter(x, y, z, s=sizes, alpha=alpha, marker=marker)
-        else:
-            if category_colors is None:
-                unique_categories = np.unique(categories)
-                category_colors = plt.cm.tab10(np.linspace(0, 1, len(unique_categories)))
-                category_colors = {category: color for category, color in zip(unique_categories, category_colors)}
-            colors = [category_colors[category] for category in categories]
-            scatter = ax.scatter(x, y, z, c=colors, s=sizes, alpha=alpha, marker=marker)
-            if legend:
-                category_handles = [plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=category_colors[category], markersize=10, label=category)
-                                    for category in np.unique(categories)]
-                ax.legend(handles=category_handles, title='Categories', loc=legend_loc, bbox_to_anchor=legend_position)
-        ax.set_title(title)
-        ax.set_xlabel(x_label)
-        ax.set_ylabel(y_label)
-        ax.set_zlabel('Z Axis Label')
+        scatterPlot.plot_3d()
 
     elif plot_type == 'matrix':
         # 矩阵散点图
@@ -168,5 +210,5 @@ if __name__ == "__main__":
     # 调用绘图函数
     #plot(None, data, title='Example Scatter Plot', regression=True)
     #plot(None, data, title='Example Bubble Plot', plot_type='bubble', bubble_sizes=data["bubble_sizes"])
-    plot(None, data, title='Example 3D Scatter Plot', plot_type='3d', z=data["Z"])
+    plot(None, data, plot_type='3d')
     #plot(None, data, title='Example Matrix Scatter Plot', plot_type='matrix')
