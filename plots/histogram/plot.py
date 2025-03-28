@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 from scipy.stats import linregress
+import pandas as pd
 
 
 class HistogramPlot:
@@ -12,8 +13,13 @@ class HistogramPlot:
 
         # 从 args 中获取参数，如果没有则使用默认值
         self.title = args.title if hasattr(args, 'title') else 'Histogram'
-        self.xlab = args.xlab if hasattr(args, 'xlab') else 'Value'
-        self.ylab = args.ylab if hasattr(args, 'ylab') else 'Frequency'
+        self.xlab = args.xlab if hasattr(args, 'xlab') else 'xlabel'
+        self.ylab = args.ylab if hasattr(args, 'ylab') else 'ylabel'
+
+        self.ax.set_title(self.title)
+        self.ax.set_xlabel(self.xlab)
+        self.ax.set_ylabel(self.ylab)
+
         self.bins = args.bins if hasattr(args, 'bins') else 10
         self.alpha = args.alpha if hasattr(args, 'alpha') else 0.7
         self.color = args.color if hasattr(args, 'color') else 'blue'
@@ -25,10 +31,13 @@ class HistogramPlot:
 
     def plot_simple(self):
         # 单变量直方图
-        self.ax.hist(self.data, bins=self.bins, alpha=self.alpha, color=self.color, edgecolor=self.edgecolor)
-        self.ax.set_title(self.title)
-        self.ax.set_xlabel(self.xlab)
-        self.ax.set_ylabel(self.ylab)
+        self.ax.hist(self.data,
+                     bins=self.bins,
+                     alpha=self.alpha,
+                     color=self.color,
+                     edgecolor=self.edgecolor
+                     )
+
 
     def plot_overlaid(self):
         # 叠加直方图
@@ -39,24 +48,17 @@ class HistogramPlot:
             self.ax.hist(d, bins=self.bins, alpha=self.alpha, color=colors[i], edgecolor=self.edgecolor, label=f'Dataset {i+1}')
         if self.legend:
             self.ax.legend()
-        self.ax.set_title(self.title)
-        self.ax.set_xlabel(self.xlab)
-        self.ax.set_ylabel(self.ylab)
+
 
     def plot_cumulative(self):
         # 累积直方图
         self.ax.hist(self.data, bins=self.bins, alpha=self.alpha, color=self.color, edgecolor=self.edgecolor, cumulative=True)
-        self.ax.set_title(self.title)
-        self.ax.set_xlabel(self.xlab)
-        self.ax.set_ylabel('Cumulative Frequency')
 
     def plot_percentage(self):
         # 百分比直方图
         weights = np.ones_like(self.data) / len(self.data)
         self.ax.hist(self.data, bins=self.bins, weights=weights, alpha=self.alpha, color=self.color, edgecolor=self.edgecolor)
-        self.ax.set_title(self.title)
-        self.ax.set_xlabel(self.xlab)
-        self.ax.set_ylabel('Percentage')
+
 
     def plot_2d(self):
         # 二维直方图
@@ -66,17 +68,12 @@ class HistogramPlot:
         heatmap, xedges, yedges = np.histogram2d(x, y, bins=self.bins)
         extent = [xedges[0], xedges[-1], yedges[0], yedges[-1]]
         self.ax.imshow(heatmap.T, extent=extent, origin='lower', cmap='viridis')
-        self.ax.set_title(self.title)
-        self.ax.set_xlabel(self.xlab)
-        self.ax.set_ylabel(self.ylab)
         plt.colorbar(self.ax.images[-1], ax=self.ax, label='Frequency')
 
     def plot_kde(self):
         # 核密度估计直方图
         sns.histplot(self.data, kde=self.kde, bins=self.bins, color=self.color)
-        self.ax.set_title(self.title)
-        self.ax.set_xlabel(self.xlab)
-        self.ax.set_ylabel(self.ylab)
+
 
     def plot_side_by_side(self):
         # 并排直方图
@@ -87,9 +84,7 @@ class HistogramPlot:
             self.ax.hist(d, bins=self.bins, alpha=self.alpha, color=colors[i], edgecolor=self.edgecolor, label=f'Dataset {i+1}')
         if self.legend:
             self.ax.legend()
-        self.ax.set_title(self.title)
-        self.ax.set_xlabel(self.xlab)
-        self.ax.set_ylabel(self.ylab)
+
 
 
 def plot(args, data, plot_type='simple'):
@@ -127,15 +122,16 @@ def plot(args, data, plot_type='simple'):
 # 示例用法
 if __name__ == "__main__":
     # 示例数据
-    data_simple = np.random.normal(0, 1, 1000)
+    data_simple = pd.DataFrame(np.random.normal(0, 1, 1000))
     data_overlaid = [np.random.normal(0, 1, 1000), np.random.normal(2, 1, 1000)]
     data_2d = [np.random.normal(0, 1, 1000), np.random.normal(0, 1, 1000)]
+    print(data_simple)
 
     # 绘制不同类型的直方图
     # plot(None, data_simple, plot_type='simple')
-    # plot(None, data_overlaid, plot_type='overlaid')
+    plot(None, data_overlaid, plot_type='overlaid')
     # plot(None, data_simple, plot_type='cumulative')
     # plot(None, data_simple, plot_type='percentage')
     # plot(None, data_2d, plot_type='2d')
-    plot(None, data_simple, plot_type='kde')
+    # plot(None, data_simple, plot_type='kde')
     # plot(None, data_overlaid, plot_type='side_by_side')

@@ -127,3 +127,236 @@
 2025-03-20 22:37:43,887 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
 2025-03-20 22:37:44,056 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
 2025-03-20 22:37:44,056 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-28 22:01:47,636 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-28 22:01:47,739 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-28 22:01:47,739 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-28 22:01:47,739 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-28 22:02:55,411 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-28 22:02:55,501 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-28 22:02:55,501 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-28 22:02:55,501 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-28 22:03:15,120 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-28 22:03:15,212 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-28 22:03:15,212 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-28 22:03:15,212 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-28 22:05:51,575 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-28 22:05:51,672 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-28 22:05:51,672 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-28 22:05:51,672 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-28 22:13:23,367 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-28 22:13:23,461 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-28 22:13:23,461 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-28 22:13:23,461 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-28 22:20:01,919 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-28 22:20:02,015 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-28 22:20:02,016 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-28 22:20:02,016 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-28 22:24:30,429 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-28 22:24:30,521 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-28 22:24:30,521 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-28 22:24:30,521 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-28 22:25:00,362 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-28 22:25:00,443 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-28 22:25:00,443 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-28 22:25:00,443 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-28 22:25:12,853 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-28 22:25:12,900 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-28 22:25:12,900 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-28 22:25:12,900 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:11:50,722 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:11:50,814 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:11:50,814 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:11:50,814 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:27:08,561 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:27:08,651 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:27:08,651 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:27:08,651 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:27:47,021 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:27:47,104 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:27:47,104 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:27:47,104 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:48:05,616 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:48:05,711 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:48:05,711 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:48:05,711 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:49:03,174 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:49:03,254 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:49:03,254 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:49:03,254 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:51:29,371 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:51:29,464 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:51:29,464 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:51:29,464 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:53:18,645 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:53:18,753 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:53:18,753 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:53:18,753 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:53:33,290 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:53:33,338 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:53:33,338 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:53:33,338 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:54:54,687 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:54:54,768 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:54:54,768 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:54:54,768 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:58:13,463 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:58:13,558 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:58:13,558 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:58:13,558 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:58:52,249 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:58:52,338 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:58:52,338 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:58:52,338 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:59:38,042 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 00:59:38,126 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
+0      A      B       2
+1      A      C       1
+2      B      C       3
+3      C      D       2
+4      D      E       1
+5      E      F       1
+6      F      G       5, '.xlsx'), kwargs={}
+2025-03-29 00:59:38,127 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
+2025-03-29 00:59:38,127 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
+2025-03-29 00:59:38,488 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 00:59:38,488 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
