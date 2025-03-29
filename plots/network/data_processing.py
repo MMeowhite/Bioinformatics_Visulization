@@ -56,7 +56,6 @@ def _adjacency_matrix_to_data(args, data):
         'edges': edges,
         'community': community
     }
-
     return result
 
 

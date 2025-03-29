@@ -1,362 +1,371 @@
-2025-03-20 20:25:43,492 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 21:32:34,509 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 21:34:29,155 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 21:35:32,904 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 21:58:44,258 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 21:59:32,707 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 21:59:57,456 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 22:01:01,620 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 22:02:45,799 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 22:02:45,939 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
-0     37.454012  111.392293
-1     95.071431  266.311248
-2     73.199394  220.475975
-3     59.865848  193.732283
-4     15.601864   57.181891
-...         ...         ...
-4995  89.739732  296.628461
-4996  11.938101   45.578605
-4997  32.784284  101.820246
-4998  81.574538  263.875659
-4999  59.731238  202.611870
-
-[5000 rows x 2 columns], '.xlsx'), kwargs={}
-2025-03-20 22:07:55,554 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 22:07:55,695 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
-0     37.454012  111.392293
-1     95.071431  266.311248
-2     73.199394  220.475975
-3     59.865848  193.732283
-4     15.601864   57.181891
-...         ...         ...
-4995  89.739732  296.628461
-4996  11.938101   45.578605
-4997  32.784284  101.820246
-4998  81.574538  263.875659
-4999  59.731238  202.611870
-
-[5000 rows x 2 columns], '.xlsx'), kwargs={}
-2025-03-20 22:07:55,695 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
-2025-03-20 22:07:55,695 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
-2025-03-20 22:10:00,687 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 22:10:00,821 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
-0     37.454012  111.392293
-1     95.071431  266.311248
-2     73.199394  220.475975
-3     59.865848  193.732283
-4     15.601864   57.181891
-...         ...         ...
-4995  89.739732  296.628461
-4996  11.938101   45.578605
-4997  32.784284  101.820246
-4998  81.574538  263.875659
-4999  59.731238  202.611870
-
-[5000 rows x 2 columns], '.xlsx'), kwargs={}
-2025-03-20 22:10:00,821 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
-2025-03-20 22:10:00,821 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
-2025-03-20 22:10:00,972 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
-2025-03-20 22:10:00,972 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
-2025-03-20 22:34:07,178 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 22:34:07,319 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
-0     37.454012  111.392293
-1     95.071431  266.311248
-2     73.199394  220.475975
-3     59.865848  193.732283
-4     15.601864   57.181891
-...         ...         ...
-4995  89.739732  296.628461
-4996  11.938101   45.578605
-4997  32.784284  101.820246
-4998  81.574538  263.875659
-4999  59.731238  202.611870
-
-[5000 rows x 2 columns], '.xlsx'), kwargs={}
-2025-03-20 22:34:07,319 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
-2025-03-20 22:34:07,319 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
-2025-03-20 22:34:59,302 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 22:34:59,435 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
-0     37.454012  111.392293
-1     95.071431  266.311248
-2     73.199394  220.475975
-3     59.865848  193.732283
-4     15.601864   57.181891
-...         ...         ...
-4995  89.739732  296.628461
-4996  11.938101   45.578605
-4997  32.784284  101.820246
-4998  81.574538  263.875659
-4999  59.731238  202.611870
-
-[5000 rows x 2 columns], '.xlsx'), kwargs={}
-2025-03-20 22:34:59,436 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
-2025-03-20 22:34:59,436 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
-2025-03-20 22:35:34,486 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 22:35:34,633 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
-0     37.454012  111.392293
-1     95.071431  266.311248
-2     73.199394  220.475975
-3     59.865848  193.732283
-4     15.601864   57.181891
-...         ...         ...
-4995  89.739732  296.628461
-4996  11.938101   45.578605
-4997  32.784284  101.820246
-4998  81.574538  263.875659
-4999  59.731238  202.611870
-
-[5000 rows x 2 columns], '.xlsx'), kwargs={}
-2025-03-20 22:35:34,633 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
-2025-03-20 22:35:34,633 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
-2025-03-20 22:37:43,746 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-20 22:37:43,887 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scatter', file='scatter_data.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),               X           Y
-0     37.454012  111.392293
-1     95.071431  266.311248
-2     73.199394  220.475975
-3     59.865848  193.732283
-4     15.601864   57.181891
-...         ...         ...
-4995  89.739732  296.628461
-4996  11.938101   45.578605
-4997  32.784284  101.820246
-4998  81.574538  263.875659
-4999  59.731238  202.611870
-
-[5000 rows x 2 columns], '.xlsx'), kwargs={}
-2025-03-20 22:37:43,887 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.plot file
-2025-03-20 22:37:43,887 - plots.plot_dispatcher - INFO - you are trying to import plots.scatter.data_processing file
-2025-03-20 22:37:44,056 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
-2025-03-20 22:37:44,056 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
-2025-03-28 22:01:47,636 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-28 22:01:47,739 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-28 22:01:47,739 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-28 22:01:47,739 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-28 22:02:55,411 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-28 22:02:55,501 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-28 22:02:55,501 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-28 22:02:55,501 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-28 22:03:15,120 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-28 22:03:15,212 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-28 22:03:15,212 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-28 22:03:15,212 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-28 22:05:51,575 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-28 22:05:51,672 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-28 22:05:51,672 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-28 22:05:51,672 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-28 22:13:23,367 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-28 22:13:23,461 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-28 22:13:23,461 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-28 22:13:23,461 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-28 22:20:01,919 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-28 22:20:02,015 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-28 22:20:02,016 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-28 22:20:02,016 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-28 22:24:30,429 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-28 22:24:30,521 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-28 22:24:30,521 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-28 22:24:30,521 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-28 22:25:00,362 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-28 22:25:00,443 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-28 22:25:00,443 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-28 22:25:00,443 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-28 22:25:12,853 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-28 22:25:12,900 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-28 22:25:12,900 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-28 22:25:12,900 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:11:50,722 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:11:50,814 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:11:50,814 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:11:50,814 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:27:08,561 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:27:08,651 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:27:08,651 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:27:08,651 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:27:47,021 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:27:47,104 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:27:47,104 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:27:47,104 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:48:05,616 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:48:05,711 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:48:05,711 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:48:05,711 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:49:03,174 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:49:03,254 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:49:03,254 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:49:03,254 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:51:29,371 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:51:29,464 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:51:29,464 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:51:29,464 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:53:18,645 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:53:18,753 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:53:18,753 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:53:18,753 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:53:33,290 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:53:33,338 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:53:33,338 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:53:33,338 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:54:54,687 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:54:54,768 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:54:54,768 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:54:54,768 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:58:13,463 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:58:13,558 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:58:13,558 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:58:13,558 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:58:52,249 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:58:52,338 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:58:52,338 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:58:52,338 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:59:38,042 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
-2025-03-29 00:59:38,126 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='network', file='network.xlsx', output=None, preview=False, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   source target  weight
-0      A      B       2
-1      A      C       1
-2      B      C       3
-3      C      D       2
-4      D      E       1
-5      E      F       1
-6      F      G       5, '.xlsx'), kwargs={}
-2025-03-29 00:59:38,127 - plots.plot_dispatcher - INFO - you are trying to import plots.network.plot file
-2025-03-29 00:59:38,127 - plots.plot_dispatcher - INFO - you are trying to import plots.network.data_processing file
-2025-03-29 00:59:38,488 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
-2025-03-29 00:59:38,488 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 14:39:14,755 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 14:39:14,836 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 14:39:14,836 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 14:39:14,836 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 14:39:15,459 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 14:39:15,459 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 14:40:45,029 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 14:40:45,098 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 14:40:45,098 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 14:40:45,098 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 14:40:45,101 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 14:40:45,783 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 14:40:45,783 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 14:40:45,783 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 14:42:45,172 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 14:42:45,248 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 14:42:45,248 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 14:42:45,248 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 14:42:45,251 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 14:42:51,724 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 14:42:51,724 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 14:42:51,725 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 14:43:32,636 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 14:43:32,704 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 14:43:32,704 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 14:43:32,704 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 14:43:32,707 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 14:43:33,817 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 14:43:33,817 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 14:43:33,818 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 14:49:57,793 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 14:49:57,874 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 14:49:57,874 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 14:49:57,874 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 14:49:57,877 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 14:49:59,284 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 14:49:59,284 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 14:49:59,285 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 14:53:35,849 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 14:53:35,929 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 14:53:35,929 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 14:53:35,929 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 14:53:35,932 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 14:53:38,106 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 14:53:38,106 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 14:53:38,107 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 14:57:19,130 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 14:57:19,209 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 14:57:19,209 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 14:57:19,209 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 14:57:19,212 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 14:58:04,525 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 14:58:04,526 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 14:58:04,527 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 14:58:52,209 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 14:58:52,282 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 14:58:52,282 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 14:58:52,282 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 14:58:52,285 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 14:59:18,778 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 14:59:18,779 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 14:59:18,781 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 15:03:18,589 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:03:18,669 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:03:18,669 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:03:18,669 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:03:18,672 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:06:27,094 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:06:27,169 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:06:27,169 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:06:27,169 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:06:27,173 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:06:32,619 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 15:06:32,619 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 15:06:32,620 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 15:09:12,450 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:09:12,525 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:09:12,525 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:09:12,525 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:09:12,529 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:10:05,575 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:10:05,639 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:10:05,640 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:10:05,640 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:10:05,643 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:10:59,280 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:10:59,360 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:10:59,360 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:10:59,360 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:10:59,363 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:11:20,798 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:11:20,860 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:11:20,860 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:11:20,860 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:11:20,863 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:14:10,288 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:14:10,368 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:14:10,368 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:14:10,368 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:14:10,371 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:17:52,041 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:17:52,114 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:17:52,114 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:17:52,114 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:17:52,117 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:18:17,897 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:18:17,961 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:18:17,961 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:18:17,961 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:18:17,964 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:19:28,333 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:19:28,408 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:19:28,408 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:19:28,408 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:19:28,411 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:19:42,771 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 15:19:42,771 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 15:19:42,771 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 15:21:18,321 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:21:18,394 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:21:18,394 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:21:18,394 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:21:18,397 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:21:32,781 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 15:21:32,782 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 15:21:32,782 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 15:25:31,259 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:25:31,332 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:25:31,332 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:25:31,332 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:25:31,335 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:26:13,969 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 15:26:13,969 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 15:26:13,969 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 15:27:15,223 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:27:15,298 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:27:15,299 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:27:15,299 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:27:15,302 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:27:51,600 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:27:51,666 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:27:51,666 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:27:51,666 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:27:51,669 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:28:08,770 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 15:28:08,770 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 15:28:08,770 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 15:31:18,877 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 15:31:18,963 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 15:31:18,963 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 15:31:18,963 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 15:31:18,966 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 15:31:35,888 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 15:31:35,888 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 15:31:35,888 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 19:42:17,640 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 19:42:17,717 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 19:42:17,717 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 19:42:17,717 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 19:42:17,721 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 19:42:34,396 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 19:42:34,396 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 19:42:34,396 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 19:43:36,304 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 19:43:36,374 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 19:43:36,374 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 19:43:36,374 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 19:43:36,378 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 19:43:59,859 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 19:43:59,860 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 19:43:59,860 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 19:44:53,509 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 19:44:53,584 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 19:44:53,584 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 19:44:53,584 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 19:44:53,587 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 19:45:15,981 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:15,986 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:15,987 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,016 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,018 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,019 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,028 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,031 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,031 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,056 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,058 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,059 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,068 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,070 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,071 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,094 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,096 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:45:16,096 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 19:47:56,995 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 19:47:56,997 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 19:47:56,997 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 19:48:03,359 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 19:48:03,421 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 19:48:03,421 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 19:48:03,421 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 19:48:03,426 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 19:50:08,019 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 19:50:08,091 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 19:50:08,091 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 19:50:08,091 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 19:50:08,094 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 19:50:31,257 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 19:50:31,258 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 19:50:31,258 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 19:50:58,966 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 19:50:59,046 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 19:50:59,046 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 19:50:59,046 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 19:50:59,050 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 19:51:19,713 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 19:51:19,714 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 19:51:19,714 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 19:51:47,684 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 19:51:47,745 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 19:51:47,745 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 19:51:47,745 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 19:51:47,748 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 19:52:17,693 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 19:52:17,694 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 19:52:17,694 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 19:52:56,795 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 19:52:56,869 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 19:52:56,869 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 19:52:56,869 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 19:52:56,873 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 19:53:18,961 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 19:53:18,962 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 19:53:18,962 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 19:54:26,326 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 19:54:26,396 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids', None), kwargs={}
+2025-03-29 19:54:26,396 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 19:54:26,396 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 19:54:26,399 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/filtered_gene_bc_matrices/hg19', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'), kwargs={}
+2025-03-29 19:54:46,974 - utils.decorator - INFO - Function 'plot' execute done with return value: return=None
+2025-03-29 19:54:46,974 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-03-29 19:54:46,974 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-03-29 21:43:32,314 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 21:49:20,301 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 21:51:21,763 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 21:52:04,969 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 21:55:56,197 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 21:58:33,675 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:01:32,363 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:01:33,246 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types', None), kwargs={}
+2025-03-29 22:01:33,246 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 22:01:33,246 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 22:01:33,253 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types'), kwargs={}
+2025-03-29 22:02:20,183 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:02:20,320 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types', None), kwargs={}
+2025-03-29 22:02:20,320 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 22:02:20,320 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 22:02:20,322 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types'), kwargs={}
+2025-03-29 22:04:46,399 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:04:46,559 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types', None), kwargs={}
+2025-03-29 22:04:46,559 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 22:04:46,559 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 22:04:46,563 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types'), kwargs={}
+2025-03-29 22:06:22,686 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:06:22,831 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types', None), kwargs={}
+2025-03-29 22:06:22,831 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 22:06:22,831 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 22:06:22,833 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types'), kwargs={}
+2025-03-29 22:07:22,008 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:07:22,161 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types', None), kwargs={}
+2025-03-29 22:07:22,161 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 22:07:22,162 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 22:07:22,164 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types'), kwargs={}
+2025-03-29 22:16:23,328 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:16:23,475 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types', None), kwargs={}
+2025-03-29 22:16:23,475 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 22:16:23,475 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 22:16:23,477 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW/GSM8816816', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 1532 × 32227
+    var: 'gene_ids', 'feature_types'), kwargs={}
+2025-03-29 22:19:39,130 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:20:40,520 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:21:48,813 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:23:46,809 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:24:03,151 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:24:04,030 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 9068 × 32227
+    obs: 'group', None), kwargs={}
+2025-03-29 22:24:04,031 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 22:24:04,031 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 22:24:04,033 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 9068 × 32227
+    obs: 'group'), kwargs={}
+2025-03-29 22:27:02,043 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-03-29 22:27:02,912 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 9068 × 32227
+    obs: 'group', None), kwargs={}
+2025-03-29 22:27:02,912 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.plot file
+2025-03-29 22:27:02,912 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
+2025-03-29 22:27:02,915 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 9068 × 32227
+    obs: 'group'), kwargs={}
