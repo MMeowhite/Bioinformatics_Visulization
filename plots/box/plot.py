@@ -3,9 +3,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from utils.decorator import log
+import os
 
 
-def plot_boxplot(args, data, **kwargs):
+class BoxPlot():
+    def __init__(self, args, data):
+        self.args = args
+        self.data = data
+        self.fig, self.ax = plt.subplots()
+        self.x_labels, self.y_labels = [], []
+
+    def plot_simple(self):
+
+
+def plot(args, data, **kwargs):
     """
     主函数，用于绘制箱线图。
 
@@ -36,22 +47,3 @@ def plot_boxplot(args, data, **kwargs):
     plt.savefig(f"{outdir}/boxplot.png", dpi=300, bbox_inches='tight')
     plt.close()
 
-
-if __name__ == "__main__":
-    import argparse
-
-    # 设置命令行参数解析
-    parser = argparse.ArgumentParser(description='箱线图绘制工具')
-    parser.add_argument('--data', type=str, required=True, help='输入数据文件')
-    parser.add_argument('--outdir', type=str, default='boxplot_results', help='输出目录')
-    parser.add_argument('--title', type=str, default='Box Plot', help='图表标题')
-    parser.add_argument('--x_label', type=str, default='X-axis', help='X 轴标签')
-    parser.add_argument('--y_label', type=str, default='Y-axis', help='Y 轴标签')
-
-    args = parser.parse_args()
-
-    # 读取数据
-    data = pd.read_csv(args.data)
-
-    # 绘制箱线图
-    plot_boxplot(args, data, x_label=args.x_label, y_label=args.y_label, title=args.title)
