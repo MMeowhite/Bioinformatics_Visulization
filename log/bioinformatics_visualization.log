@@ -369,3 +369,173 @@
 2025-03-29 22:27:02,912 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.scrna.data_processing file
 2025-03-29 22:27:02,915 - utils.decorator - INFO - Function 'plot' called with arguments: args=(Namespace(type='scrna', file='example/GSE290572_RAW', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20), AnnData object with n_obs × n_vars = 9068 × 32227
     obs: 'group'), kwargs={}
+2025-04-10 21:06:32,348 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 21:06:32,480 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   Unnamed: 0  Birch  Cedar  Maple  Oak  Pine  Willow
+0     City A      1      0      1    1     1       0
+1     City B      1      1      1    0     1       0
+2     City C      1      1      1    1     0       0
+3     City D      1      0      1    0     0       1
+4     City E      1      0      0    1     1       1, '.xlsx'), kwargs={}
+2025-04-10 21:06:32,480 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 21:06:32,480 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:08:01,873 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:08:02,019 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6
+0     City A      Birch        NaN      Maple        Oak       Pine        NaN
+1     City B      Birch      Cedar      Maple        NaN       Pine        NaN
+2     City C      Birch      Cedar      Maple        Oak        NaN        NaN
+3     City D      Birch        NaN      Maple        NaN        NaN     Willow
+4     City E      Birch        NaN        NaN        Oak       Pine     Willow, '.xlsx'), kwargs={}
+2025-04-10 23:08:02,019 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:08:02,019 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:39:50,613 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:39:50,758 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-10 23:39:50,758 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:39:50,758 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:53:00,286 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:53:00,432 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-10 23:53:00,432 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:53:00,432 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:53:58,643 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:53:58,773 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-10 23:53:58,773 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:53:58,773 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:54:42,810 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:54:42,929 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-10 23:54:42,929 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:54:42,929 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:56:26,830 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:56:26,962 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-10 23:56:26,962 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:56:26,962 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:57:02,581 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:57:02,718 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-10 23:57:02,718 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:57:02,718 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:57:36,528 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:57:36,625 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-10 23:57:36,626 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:57:36,626 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:58:04,632 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:58:04,730 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-10 23:58:04,730 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:58:04,730 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-10 23:59:45,008 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-10 23:59:45,134 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-10 23:59:45,134 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-10 23:59:45,134 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 00:00:15,436 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 00:00:15,570 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-11 00:00:15,570 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 00:00:15,570 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 00:00:47,705 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 00:00:47,808 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-11 00:00:47,809 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 00:00:47,809 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 00:01:35,420 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 00:01:35,521 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-11 00:01:35,522 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 00:01:35,522 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 00:02:04,178 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 00:02:04,275 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-11 00:02:04,275 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 00:02:04,275 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 00:02:16,469 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 00:02:16,567 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-11 00:02:16,567 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 00:02:16,567 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 00:03:52,958 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 00:03:53,098 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/venn_data.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),   City A City B City C  City D  City E
+0  Birch  Birch  Birch   Birch   Birch
+1  Cedar    NaN  Cedar     NaN     NaN
+2  Maple  Maple  Maple   Maple     NaN
+3    Oak    NaN    Oak     NaN     Oak
+4   Pine   Pine    NaN     NaN    Pine
+5    NaN    NaN    NaN  Willow  Willow, '.xlsx'), kwargs={}
+2025-04-11 00:03:53,098 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 00:03:53,098 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 00:03:53,262 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-04-11 00:03:53,262 - utils.decorator - INFO - Function 'main' execute done with return value: return=None

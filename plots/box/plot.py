@@ -14,6 +14,7 @@ class BoxPlot():
         self.x_labels, self.y_labels = [], []
 
     def plot_simple(self):
+        pass
 
 
 def plot(args, data, **kwargs):
