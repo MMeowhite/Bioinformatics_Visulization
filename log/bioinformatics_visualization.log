@@ -539,3 +539,96 @@
 2025-04-11 00:03:53,098 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
 2025-04-11 00:03:53,262 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
 2025-04-11 00:03:53,262 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-04-11 18:23:45,389 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 18:23:45,535 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/differential_expressed_genes.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),        Group 1    Group 2    Group 3    Group 4
+0    Gene_8786  Gene_7684  Gene_7947  Gene_5898
+1    Gene_5545  Gene_2462  Gene_5595  Gene_5056
+2    Gene_5497  Gene_3074  Gene_6031  Gene_9570
+3    Gene_2167  Gene_3375  Gene_8536  Gene_4281
+4    Gene_1245   Gene_630  Gene_8209  Gene_4216
+..         ...        ...        ...        ...
+195  Gene_8561        NaN        NaN        NaN
+196  Gene_3976        NaN        NaN        NaN
+197  Gene_8679        NaN        NaN        NaN
+198  Gene_8700        NaN        NaN        NaN
+199  Gene_9240        NaN        NaN        NaN
+
+[200 rows x 4 columns], '.xlsx'), kwargs={}
+2025-04-11 18:23:45,535 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 18:23:45,535 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 18:24:05,087 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 18:24:05,215 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/differential_expressed_genes.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),        Group 1    Group 2    Group 3    Group 4
+0    Gene_8786  Gene_7684  Gene_7947  Gene_5898
+1    Gene_5545  Gene_2462  Gene_5595  Gene_5056
+2    Gene_5497  Gene_3074  Gene_6031  Gene_9570
+3    Gene_2167  Gene_3375  Gene_8536  Gene_4281
+4    Gene_1245   Gene_630  Gene_8209  Gene_4216
+..         ...        ...        ...        ...
+195  Gene_8561        NaN        NaN        NaN
+196  Gene_3976        NaN        NaN        NaN
+197  Gene_8679        NaN        NaN        NaN
+198  Gene_8700        NaN        NaN        NaN
+199  Gene_9240        NaN        NaN        NaN
+
+[200 rows x 4 columns], '.xlsx'), kwargs={}
+2025-04-11 18:24:05,216 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 18:24:05,216 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 18:24:05,413 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-04-11 18:24:05,414 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-04-11 18:26:28,943 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 18:26:29,076 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/differential_expressed_genes.xlsx', output=None, preview=False, layout=None, color=None, linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),        Group 1    Group 2    Group 3    Group 4
+0    Gene_8786  Gene_7684  Gene_7947  Gene_5898
+1    Gene_5545  Gene_2462  Gene_5595  Gene_5056
+2    Gene_5497  Gene_3074  Gene_6031  Gene_9570
+3    Gene_2167  Gene_3375  Gene_8536  Gene_4281
+4    Gene_1245   Gene_630  Gene_8209  Gene_4216
+..         ...        ...        ...        ...
+195  Gene_8561        NaN        NaN        NaN
+196  Gene_3976        NaN        NaN        NaN
+197  Gene_8679        NaN        NaN        NaN
+198  Gene_8700        NaN        NaN        NaN
+199  Gene_9240        NaN        NaN        NaN
+
+[200 rows x 4 columns], '.xlsx'), kwargs={}
+2025-04-11 18:26:29,076 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 18:26:29,076 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 18:26:29,830 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-04-11 18:26:29,830 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-04-11 18:27:17,410 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 18:27:17,555 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/differential_expressed_genes.xlsx', output=None, preview=False, layout=None, color=['red', 'blue', 'green', 'gray'], linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),        Group 1    Group 2    Group 3    Group 4
+0    Gene_8786  Gene_7684  Gene_7947  Gene_5898
+1    Gene_5545  Gene_2462  Gene_5595  Gene_5056
+2    Gene_5497  Gene_3074  Gene_6031  Gene_9570
+3    Gene_2167  Gene_3375  Gene_8536  Gene_4281
+4    Gene_1245   Gene_630  Gene_8209  Gene_4216
+..         ...        ...        ...        ...
+195  Gene_8561        NaN        NaN        NaN
+196  Gene_3976        NaN        NaN        NaN
+197  Gene_8679        NaN        NaN        NaN
+198  Gene_8700        NaN        NaN        NaN
+199  Gene_9240        NaN        NaN        NaN
+
+[200 rows x 4 columns], '.xlsx'), kwargs={}
+2025-04-11 18:27:17,556 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 18:27:17,556 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 18:27:18,307 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-04-11 18:27:18,307 - utils.decorator - INFO - Function 'main' execute done with return value: return=None
+2025-04-11 18:27:50,697 - utils.decorator - INFO - Function 'main' called with arguments: args=(), kwargs={}
+2025-04-11 18:27:50,844 - utils.decorator - INFO - Function 'dispatch_plot' called with arguments: args=(Namespace(type='venn', file='example/differential_expressed_genes.xlsx', output=None, preview=False, layout=None, color=['red', 'blue', 'green', 'gray'], linestyle=None, marker=None, bins=None, regression=False, annotate=False, gene_list=None, species='mouse', analysis_type=None, top_n=20),        Group 1    Group 2    Group 3    Group 4
+0    Gene_8786  Gene_7684  Gene_7947  Gene_5898
+1    Gene_5545  Gene_2462  Gene_5595  Gene_5056
+2    Gene_5497  Gene_3074  Gene_6031  Gene_9570
+3    Gene_2167  Gene_3375  Gene_8536  Gene_4281
+4    Gene_1245   Gene_630  Gene_8209  Gene_4216
+..         ...        ...        ...        ...
+195  Gene_8561        NaN        NaN        NaN
+196  Gene_3976        NaN        NaN        NaN
+197  Gene_8679        NaN        NaN        NaN
+198  Gene_8700        NaN        NaN        NaN
+199  Gene_9240        NaN        NaN        NaN
+
+[200 rows x 4 columns], '.xlsx'), kwargs={}
+2025-04-11 18:27:50,844 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.plot file
+2025-04-11 18:27:50,845 - plots.plot_dispatcher - INFO - you are trying to import plots.complex.venn.data_processing file
+2025-04-11 18:27:51,611 - utils.decorator - INFO - Function 'dispatch_plot' execute done with return value: return=None
+2025-04-11 18:27:51,611 - utils.decorator - INFO - Function 'main' execute done with return value: return=None

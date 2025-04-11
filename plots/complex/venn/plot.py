@@ -7,13 +7,14 @@ class VennPlot(object):
     def __init__(self, args, data):
         self.args = args
         self.data = self._pd_to_dict(data)
-        self.colors = args.colors if 'colors' in args else 'viridis'
+        self.color = args.color if 'color' in args else 'viridis'
+        self.dpi = args.dpi if 'dpi' in args else 600
 
     def plot_venn(self):
         plt.figure(figsize=(6, 6))
-        venn(self.data, cmap=self.colors)
+        venn(self.data, cmap=self.color)
         plt.title("Venn Diagram for all Cities")
-        plt.savefig('venn.png')
+        plt.savefig('venn.png', dpi=self.dpi)
 
     def _pd_to_dict(self, data):
         if not isinstance(data, pd.DataFrame):
@@ -31,6 +32,5 @@ class VennPlot(object):
 def plot(args, data):
     venn_plot = VennPlot(args, data)
     venn_plot.plot_venn()
-
 
 
