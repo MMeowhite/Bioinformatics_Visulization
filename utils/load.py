@@ -8,7 +8,7 @@ import re
 
 def parse_args():
     # 解析命令行参数
-    parser = argparse.ArgumentParser(description="Plotting")
+    parser = argparse.ArgumentParser(description="Quick Bioinformatics Plotting")
     parser.add_argument("-t", "--type", required=True, help="Type of plot (e.g., line, bar, scatter, hist)")
     parser.add_argument("-f", "--file", help="Path to the data file (csv, xlsx, xls format)")
     parser.add_argument("-o", "--output", help="Output directory path")
@@ -22,7 +22,8 @@ def parse_args():
     parser.add_argument("--regression", action="store_true", help="Whether or not to do regression plot")
     parser.add_argument("--annotate", action="store_true", help="annotate plot")
     parser.add_argument('--gene-list', type=str, help='输入基因列表文件，每行一个基因')
-    parser.add_argument('--species', type=str, choices=['human', 'mouse'], default="mouse",
+    parser.add_argument('--gene-set', type=str, help='input gene sets')
+    parser.add_argument('--species', '--organism', type=str, choices=['human', 'mouse'], default="mouse",
                         help='choice for species (only human and mouse)')
     parser.add_argument('--analysis-type', type=str, choices=['go', 'kegg'], help='analysis type')
     parser.add_argument('--top-n', type=int, default=20, help='top n results')

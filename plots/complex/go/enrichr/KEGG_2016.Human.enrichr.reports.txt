@@ -1,0 +1,90 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Old P-value	Old Adjusted P-value	Odds Ratio	Combined Score	Genes
+KEGG_2016	Endometrial cancer Homo sapiens hsa05213	4/52	8.431194e-09	6.702220e-07	0	0	2.769722e+02	5.149281e+03	PTEN;KRAS;TP53;EGFR
+KEGG_2016	Glioma Homo sapiens hsa05214	4/65	2.101958e-08	6.702220e-07	0	0	2.178033e+02	3.850285e+03	PTEN;KRAS;TP53;EGFR
+KEGG_2016	Central carbon metabolism in cancer Homo sapiens hsa05230	4/67	2.378497e-08	6.702220e-07	0	0	2.108677e+02	3.701617e+03	PTEN;KRAS;TP53;EGFR
+KEGG_2016	Melanoma Homo sapiens hsa05218	4/71	3.012234e-08	6.702220e-07	0	0	1.982388e+02	3.433099e+03	PTEN;KRAS;TP53;EGFR
+KEGG_2016	Prostate cancer Homo sapiens hsa05215	4/89	7.536849e-08	1.341559e-06	0	0	1.561176e+02	2.560466e+03	PTEN;KRAS;TP53;EGFR
+KEGG_2016	MicroRNAs in cancer Homo sapiens hsa05206	5/297	1.655504e-07	2.455664e-06	0	0	6.745890e+01	1.053303e+03	PTEN;KRAS;BRCA1;TP53;EGFR
+KEGG_2016	PI3K-Akt signaling pathway Homo sapiens hsa04151	5/341	3.287002e-07	4.179188e-06	0	0	5.849405e+01	8.732061e+02	PTEN;KRAS;BRCA1;TP53;EGFR
+KEGG_2016	Bladder cancer Homo sapiens hsa05219	3/41	9.499260e-07	1.056793e-05	0	0	2.250226e+02	3.120361e+03	KRAS;TP53;EGFR
+KEGG_2016	Non-small cell lung cancer Homo sapiens hsa05223	3/56	2.460474e-06	2.433136e-05	0	0	1.612156e+02	2.082125e+03	KRAS;TP53;EGFR
+KEGG_2016	Pancreatic cancer Homo sapiens hsa05212	3/66	4.051094e-06	3.605474e-05	0	0	1.355578e+02	1.683157e+03	KRAS;TP53;EGFR
+KEGG_2016	Sphingolipid signaling pathway Homo sapiens hsa04071	3/120	2.451227e-05	1.983266e-04	0	0	7.279487e+01	7.728149e+02	PTEN;KRAS;TP53
+KEGG_2016	Pathways in cancer Homo sapiens hsa05200	4/397	2.921154e-05	2.119566e-04	0	0	3.324343e+01	3.470929e+02	PTEN;KRAS;TP53;EGFR
+KEGG_2016	FoxO signaling pathway Homo sapiens hsa04068	3/133	3.334149e-05	2.119566e-04	0	0	6.547253e+01	6.749372e+02	PTEN;KRAS;EGFR
+KEGG_2016	Hepatitis C Homo sapiens hsa05160	3/133	3.334149e-05	2.119566e-04	0	0	6.547253e+01	6.749372e+02	KRAS;TP53;EGFR
+KEGG_2016	Hepatitis B Homo sapiens hsa05161	3/146	4.404389e-05	2.613271e-04	0	0	5.948152e+01	5.966189e+02	PTEN;KRAS;TP53
+KEGG_2016	Dorso-ventral axis formation Homo sapiens hsa04320	2/27	7.845066e-05	4.363818e-04	0	0	1.996500e+02	1.887300e+03	KRAS;EGFR
+KEGG_2016	Thyroid cancer Homo sapiens hsa05216	2/29	9.069522e-05	4.748161e-04	0	0	1.848426e+02	1.720516e+03	KRAS;TP53
+KEGG_2016	Proteoglycans in cancer Homo sapiens hsa05205	3/203	1.173072e-04	5.800191e-04	0	0	4.240714e+01	3.838149e+02	KRAS;TP53;EGFR
+KEGG_2016	MAPK signaling pathway Homo sapiens hsa04010	3/255	2.300480e-04	1.077593e-03	0	0	3.356803e+01	2.812068e+02	KRAS;TP53;EGFR
+KEGG_2016	Colorectal cancer Homo sapiens hsa05210	2/62	4.187279e-04	1.863339e-03	0	0	8.304167e+01	6.459221e+02	KRAS;TP53
+KEGG_2016	p53 signaling pathway Homo sapiens hsa04115	2/69	5.185110e-04	2.197499e-03	0	0	7.433955e+01	5.623452e+02	PTEN;TP53
+KEGG_2016	Chronic myeloid leukemia Homo sapiens hsa05220	2/73	5.802193e-04	2.347251e-03	0	0	7.013732e+01	5.226707e+02	KRAS;TP53
+KEGG_2016	Small cell lung cancer Homo sapiens hsa05222	2/86	8.041717e-04	2.996758e-03	0	0	5.924405e+01	4.221552e+02	PTEN;TP53
+KEGG_2016	ErbB signaling pathway Homo sapiens hsa04012	2/87	8.228739e-04	2.996758e-03	0	0	5.854412e+01	4.158217e+02	KRAS;EGFR
+KEGG_2016	Gap junction Homo sapiens hsa04540	2/88	8.417860e-04	2.996758e-03	0	0	5.786047e+01	4.096512e+02	KRAS;EGFR
+KEGG_2016	GnRH signaling pathway Homo sapiens hsa04912	2/91	8.997798e-04	3.080015e-03	0	0	5.590169e+01	3.920587e+02	KRAS;EGFR
+KEGG_2016	Longevity regulating pathway - mammal Homo sapiens hsa04211	2/94	9.596562e-04	3.163311e-03	0	0	5.407065e+01	3.757335e+02	KRAS;TP53
+KEGG_2016	Estrogen signaling pathway Homo sapiens hsa04915	2/99	1.063621e-03	3.380796e-03	0	0	5.127062e+01	3.510025e+02	KRAS;EGFR
+KEGG_2016	Choline metabolism in cancer Homo sapiens hsa05231	2/101	1.106663e-03	3.396311e-03	0	0	5.022980e+01	3.418844e+02	KRAS;EGFR
+KEGG_2016	Thyroid hormone signaling pathway Homo sapiens hsa04919	2/118	1.505888e-03	4.467468e-03	0	0	4.283190e+01	2.783376e+02	KRAS;TP53
+KEGG_2016	Neurotrophin signaling pathway Homo sapiens hsa04722	2/120	1.556759e-03	4.469404e-03	0	0	4.210169e+01	2.721937e+02	KRAS;TP53
+KEGG_2016	Tight junction Homo sapiens hsa04530	2/139	2.080586e-03	5.691083e-03	0	0	3.622810e+01	2.237124e+02	PTEN;KRAS
+KEGG_2016	Apoptosis Homo sapiens hsa04210	2/140	2.110177e-03	5.691083e-03	0	0	3.596377e+01	2.215722e+02	KRAS;TP53
+KEGG_2016	Phospholipase D signaling pathway Homo sapiens hsa04072	2/144	2.230545e-03	5.838781e-03	0	0	3.494366e+01	2.133488e+02	KRAS;EGFR
+KEGG_2016	Oxytocin signaling pathway Homo sapiens hsa04921	2/158	2.676992e-03	6.807208e-03	0	0	3.178526e+01	1.882660e+02	KRAS;EGFR
+KEGG_2016	Focal adhesion Homo sapiens hsa04510	2/202	4.330505e-03	1.070597e-02	0	0	2.473750e+01	1.346232e+02	PTEN;EGFR
+KEGG_2016	Viral carcinogenesis Homo sapiens hsa05203	2/205	4.456844e-03	1.072052e-02	0	0	2.436823e+01	1.319129e+02	KRAS;TP53
+KEGG_2016	Rap1 signaling pathway Homo sapiens hsa04015	2/211	4.714653e-03	1.104221e-02	0	0	2.366148e+01	1.267565e+02	KRAS;EGFR
+KEGG_2016	Regulation of actin cytoskeleton Homo sapiens hsa04810	2/214	4.846114e-03	1.105908e-02	0	0	2.332311e+01	1.243024e+02	KRAS;EGFR
+KEGG_2016	Ras signaling pathway Homo sapiens hsa04014	2/227	5.435352e-03	1.209366e-02	0	0	2.196111e+01	1.145235e+02	KRAS;EGFR
+KEGG_2016	HTLV-I infection Homo sapiens hsa05166	2/258	6.967110e-03	1.487456e-02	0	0	1.927148e+01	9.571288e+01	KRAS;TP53
+KEGG_2016	Endocytosis Homo sapiens hsa04144	2/259	7.019454e-03	1.487456e-02	0	0	1.919553e+01	9.519195e+01	DAB2;EGFR
+KEGG_2016	Vitamin digestion and absorption Homo sapiens hsa04977	1/24	1.193796e-02	2.470881e-02	0	0	9.645894e+01	4.271232e+02	FOLH1
+KEGG_2016	Alanine, aspartate and glutamate metabolism Homo sapiens hsa00250	1/35	1.736657e-02	3.512783e-02	0	0	6.521569e+01	2.643328e+02	FOLH1
+KEGG_2016	Aldosterone-regulated sodium reabsorption Homo sapiens hsa04960	1/39	1.933394e-02	3.823823e-02	0	0	5.833918e+01	2.302002e+02	KRAS
+KEGG_2016	Amyotrophic lateral sclerosis (ALS) Homo sapiens hsa05014	1/51	2.521481e-02	4.774719e-02	0	0	4.431111e+01	1.630792e+02	TP53
+KEGG_2016	Mineral absorption Homo sapiens hsa04978	1/51	2.521481e-02	4.774719e-02	0	0	4.431111e+01	1.630792e+02	STEAP2
+KEGG_2016	Fanconi anemia pathway Homo sapiens hsa03460	1/53	2.619186e-02	4.856407e-02	0	0	4.260256e+01	1.551716e+02	BRCA1
+KEGG_2016	Basal cell carcinoma Homo sapiens hsa05217	1/55	2.716803e-02	4.934602e-02	0	0	4.102058e+01	1.479085e+02	TP53
+KEGG_2016	Acute myeloid leukemia Homo sapiens hsa05221	1/57	2.814332e-02	5.009511e-02	0	0	3.955159e+01	1.412168e+02	KRAS
+KEGG_2016	Long-term depression Homo sapiens hsa04730	1/60	2.960461e-02	5.052140e-02	0	0	3.753484e+01	1.321161e+02	KRAS
+KEGG_2016	mTOR signaling pathway Homo sapiens hsa04150	1/60	2.960461e-02	5.052140e-02	0	0	3.753484e+01	1.321161e+02	PTEN
+KEGG_2016	VEGF signaling pathway Homo sapiens hsa04370	1/61	3.009127e-02	5.052140e-02	0	0	3.690741e+01	1.293059e+02	KRAS
+KEGG_2016	Longevity regulating pathway - multiple species Homo sapiens hsa04213	1/64	3.154992e-02	5.052140e-02	0	0	3.514462e+01	1.214663e+02	KRAS
+KEGG_2016	Retinol metabolism Homo sapiens hsa00830	1/65	3.203569e-02	5.052140e-02	0	0	3.459375e+01	1.190338e+02	ALDH1A1
+KEGG_2016	Long-term potentiation Homo sapiens hsa04720	1/66	3.252125e-02	5.052140e-02	0	0	3.405983e+01	1.166843e+02	KRAS
+KEGG_2016	Renal cell carcinoma Homo sapiens hsa05211	1/66	3.252125e-02	5.052140e-02	0	0	3.405983e+01	1.166843e+02	KRAS
+KEGG_2016	Epithelial cell signaling in Helicobacter pylori infection Homo sapiens hsa05120	1/68	3.349171e-02	5.052140e-02	0	0	3.303980e+01	1.122183e+02	EGFR
+KEGG_2016	Fc epsilon RI signaling pathway Homo sapiens hsa04664	1/68	3.349171e-02	5.052140e-02	0	0	3.303980e+01	1.122183e+02	KRAS
+KEGG_2016	Inositol phosphate metabolism Homo sapiens hsa00562	1/71	3.494576e-02	5.141917e-02	0	0	3.161905e+01	1.060490e+02	PTEN
+KEGG_2016	Prolactin signaling pathway Homo sapiens hsa04917	1/72	3.543000e-02	5.141917e-02	0	0	3.117214e+01	1.041211e+02	KRAS
+KEGG_2016	B cell receptor signaling pathway Homo sapiens hsa04662	1/73	3.591403e-02	5.141917e-02	0	0	3.073765e+01	1.022527e+02	KRAS
+KEGG_2016	Adherens junction Homo sapiens hsa04520	1/74	3.639784e-02	5.141917e-02	0	0	3.031507e+01	1.004413e+02	EGFR
+KEGG_2016	Progesterone-mediated oocyte maturation Homo sapiens hsa04914	1/98	4.794387e-02	6.553863e-02	0	0	2.278694e+01	6.922045e+01	KRAS
+KEGG_2016	Phosphatidylinositol signaling system Homo sapiens hsa04070	1/98	4.794387e-02	6.553863e-02	0	0	2.278694e+01	6.922045e+01	PTEN
+KEGG_2016	Melanogenesis Homo sapiens hsa04916	1/100	4.890039e-02	6.553863e-02	0	0	2.232435e+01	6.737423e+01	KRAS
+KEGG_2016	AGE-RAGE signaling pathway in diabetic complications Homo sapiens hsa04933	1/101	4.937833e-02	6.553863e-02	0	0	2.210000e+01	6.648218e+01	KRAS
+KEGG_2016	HIF-1 signaling pathway Homo sapiens hsa04066	1/103	5.033356e-02	6.553863e-02	0	0	2.166449e+01	6.475696e+01	EGFR
+KEGG_2016	T cell receptor signaling pathway Homo sapiens hsa04660	1/104	5.081085e-02	6.553863e-02	0	0	2.145307e+01	6.392255e+01	KRAS
+KEGG_2016	Insulin resistance Homo sapiens hsa04931	1/109	5.319406e-02	6.751812e-02	0	0	2.045473e+01	6.001027e+01	PTEN
+KEGG_2016	Cholinergic synapse Homo sapiens hsa04725	1/111	5.414584e-02	6.751812e-02	0	0	2.008081e+01	5.855713e+01	KRAS
+KEGG_2016	Serotonergic synapse Homo sapiens hsa04726	1/112	5.462140e-02	6.751812e-02	0	0	1.989890e+01	5.785265e+01	KRAS
+KEGG_2016	Cell cycle Homo sapiens hsa04110	1/124	6.031143e-02	7.353037e-02	0	0	1.794670e+01	5.039854e+01	TP53
+KEGG_2016	Axon guidance Homo sapiens hsa04360	1/127	6.172911e-02	7.424177e-02	0	0	1.751675e+01	4.878416e+01	KRAS
+KEGG_2016	Natural killer cell mediated cytotoxicity Homo sapiens hsa04650	1/135	6.550019e-02	7.652741e-02	0	0	1.646434e+01	4.487690e+01	KRAS
+KEGG_2016	Measles Homo sapiens hsa05162	1/136	6.597061e-02	7.652741e-02	0	0	1.634156e+01	4.442529e+01	TP53
+KEGG_2016	Ubiquitin mediated proteolysis Homo sapiens hsa04120	1/137	6.644082e-02	7.652741e-02	0	0	1.622059e+01	4.398121e+01	BRCA1
+KEGG_2016	Insulin signaling pathway Homo sapiens hsa04910	1/139	6.738061e-02	7.652741e-02	0	0	1.598390e+01	4.311493e+01	KRAS
+KEGG_2016	Wnt signaling pathway Homo sapiens hsa04310	1/142	6.878868e-02	7.652741e-02	0	0	1.564145e+01	4.186772e+01	TP53
+KEGG_2016	Signaling pathways regulating pluripotency of stem cells Homo sapiens hsa04550	1/142	6.878868e-02	7.652741e-02	0	0	1.564145e+01	4.186772e+01	KRAS
+KEGG_2016	Alcoholism Homo sapiens hsa05034	1/179	8.599836e-02	9.270957e-02	0	0	1.236704e+01	3.034163e+01	KRAS
+KEGG_2016	Transcriptional misregulation in cancer Homo sapiens hsa05202	1/180	8.645949e-02	9.270957e-02	0	0	1.229733e+01	3.010484e+01	TP53
+KEGG_2016	Calcium signaling pathway Homo sapiens hsa04020	1/180	8.645949e-02	9.270957e-02	0	0	1.229733e+01	3.010484e+01	EGFR
+KEGG_2016	Herpes simplex infection Homo sapiens hsa05168	1/185	8.876199e-02	9.390183e-02	0	0	1.196014e+01	2.896504e+01	TP53
+KEGG_2016	Chemokine signaling pathway Homo sapiens hsa04062	1/187	8.968152e-02	9.390183e-02	0	0	1.183035e+01	2.852877e+01	KRAS
+KEGG_2016	Huntington's disease Homo sapiens hsa05016	1/193	9.243512e-02	9.565960e-02	0	0	1.145718e+01	2.728238e+01	TP53
+KEGG_2016	Epstein-Barr virus infection Homo sapiens hsa05169	1/202	9.655146e-02	9.877103e-02	0	0	1.093919e+01	2.557232e+01	TP53
+KEGG_2016	Metabolic pathways Homo sapiens hsa01100	2/1239	1.240195e-01	1.248986e-01	0	0	3.790016e+00	7.910964e+00	FOLH1;ALDH1A1
+KEGG_2016	Cytokine-cytokine receptor interaction Homo sapiens hsa04060	1/265	1.248986e-01	1.248986e-01	0	0	8.302189e+00	1.727066e+01	EGFR

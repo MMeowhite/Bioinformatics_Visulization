@@ -1,0 +1,13 @@
+bioservices==1.12.1
+gseapy==1.1.7
+lifelines==0.30.0
+matplotlib==3.10.1
+networkx==3.1
+numpy==2.2.4
+pandas==2.2.3
+plotly==5.22.0
+rpy2==3.5.17
+scanpy==1.11.1
+scikit_learn==1.6.1
+scipy==1.15.2
+seaborn==0.13.2
